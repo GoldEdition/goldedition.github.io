@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UDEMY WORK 1</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" type="text/css" href="/css/udemy-work.css">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>
+
+<!-- BODY -->
+<body>
+
+  <h1>Structuring my HTML/CSS Document</h1>
+
+  <!-- MAIN CONTAINER -->
+  <div id="main-container">
+
+    <!-- TITLE GREEN -->
+    <div class= "tile green">
+      <h2>Plans</h2>
+      <ul class="tile-list">
+        <li><a href="http://www.facebook.com">Share</a></li>
+        <li><a href="http://www.udemy.com">Code</a></li>
+        <li><a href="http://www.google.com/flights/">Travel</a></li>
+      <ul>
+    </div>
+
+    <!-- TITLE YELLOW -->
+    <div class= "tile yellow">
+      <div>
+        Important interview
+        <div class="event-hours">
+          <p>3:00 - 4:00</p>
+        </div>
+        <div class="event-date">December>
+          <span class="event-day">15</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TITLE RED -->
+    <div class= "tile red">
+      <h2>TO DO</h2>
+      <ol class="tile-list">
+        <li>Build websites</li>
+        <li>Build apps</li>
+        <li>Travel</li>
+      </ol>
+    </div>
+
+    <!-- TITLE LIGHTGREY -->
+    <div class= "tile lightgrey">
+      <img src="resources/chart.jpg" width="140" />
+      <div class="chart-total">
+        Progress
+      </div>
+    </div>
+
+    <!-- TITLE PURPLE -->
+    <div class= "tile-double purple">
+      <table id="users-table">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Product</th>
+            <th>Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zhane</td>
+            <td>Dog Food</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Kidest</td>
+            <td>Cat Food</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Dominique</td>
+            <td>Rat Food</td>
+            <td>100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- TITLE GREEN -->
+    <div class= "tile green">
+      <h2>Destination:</h2>
+      <form>
+        <select>
+          <option>Paris</option>
+          <option>Barcelona</option>
+          <option>Rome</option>
+          <option>New York</option>
+          <option>London</option>
+        </select>
+        <input type="number" value="" placeholder="Tickets" />
+        <input type="text" placeholder="comments" />
+        <button>Order</button>
+      </form>
+    </div>
+
+    <!-- CITY IMAGE -->
+    <div class= "tile city-image">
+      <div>
+        Paris
+      </div>
+      <div>
+        36°
+      </div>
+    </div>
+
+  <!-- END MAIN CONTAINER -->
+  </div>
+
+<!-- END BODY -->
+</body>
+
+</html>

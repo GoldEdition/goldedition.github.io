@@ -1,0 +1,24 @@
+# Site settings
+title: ZhaBen
+email: goldedition212@gmail.com
+description: Welcome to my blog!
+
+baseurl: "/"
+url: "https://goldedition.github.io"
+
+twitter_username: GoldEdition
+github_username:  GoldEdition
+
+# Build settings
+sass:
+  sass_dir: _sass
+
+include: ['_pages']
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

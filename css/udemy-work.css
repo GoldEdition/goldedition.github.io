@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+  font-family: helvetica, courier;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  font-size: 20pt;
+  color: white;
+}
+
+h2 {
+  font-size: 18pt;
+  margin-bottom:15px;
+}
+
+.event-hours{
+  font-size: 10px;
+  font-family: helvetica, courier;
+  font-weight: bold;
+  color: white;
+}
+
+.event-date{
+  margin-top: 40px;
+}
+.event-day{
+  font-size: 55pt;
+}
+
+.tile {
+  width: 170px;
+  height: 140px;
+  margin: 5px;
+  padding: 20px;
+  float: left;
+}
+
+.tile-double {
+  width: 390px;
+  height: 140px;
+  margin: 5px;
+  padding: 20px;
+  float: left;
+
+}
+
+.tile-list a {
+  color: white;
+  text-decoration:none;
+
+}
+
+.tile-list li {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+ul.tile-list li {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  list-style-type: disc;
+}
+
+ol.tile-list li {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  list-style-type: decimal;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: rgb(203, 52, 48);
+}
+
+.yellow {
+  background-color: rgb(209, 218, 36);
+}
+
+.lightgrey {
+  background-color: rgb(110, 120, 118);
+  color: black
+}
+.purple {
+  background-color: rgb(170, 70, 163);
+}
+
+.city-image {
+  background-image: url("/resources/paris.jpg");
+  font-size: 20pt;
+}
+
+#main-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.chart-total {
+  font-size: 25pt;
+  text-align: right;
+}
+
+#users-table {
+  margin: 10px auto;
+  font-weight: normal;
+  width: 100%;
+}
+
+#users-table th {
+  border-bottom: 1px solid rgb(75, 55, 190);
+  padding: 2px;
+  text-align: center;
+}
+
+#users-table td {
+  padding: 2px;
+  text-align: center;
+}
