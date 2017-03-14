@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adventures in France
+title: Adventures in Spain
 permalink: /photography/
 ---
 
