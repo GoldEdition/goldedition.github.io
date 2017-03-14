@@ -5,6 +5,6 @@ permalink: /photography/
 ---
 
 
-![DSC_0305](/resources/pictures/adventures-in-france/DSC_0305.jpg){:class="img-responsive"}
+![DSC_0305.jpg](/resources/pictures/adventures-in-france/DSC_0305.jpg){:class="img-responsive"}
 
-<img src="/resources/pictures/adventures-in-france/DSC_0305.jpg" width="800" height="400"/>
+![DSC_0079_2.jpg](/resources/pictures/adventures-in-france/DSC_0079_2.jpg){:class="img-responsive"}
