@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-<p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 {% for post in site.posts %}
 
   {% unless post.next %}
@@ -25,3 +23,5 @@ permalink: /blog/
   </div>
 
 {% endfor %}
+
+<p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
