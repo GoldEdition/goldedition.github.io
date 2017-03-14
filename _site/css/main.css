@@ -8,35 +8,36 @@
 body {
   margin: 0;
   color: #262626;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1em;
+  font-family: "Verdana", sans-serif;
+  font-size: 1em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased; }
 
 h1,
 h2,
 h3 {
-  font-weight: 600;
-  color: #000000;
-  font-family: "Muli", sans-serif;
+  font-weight: 500;
+  color: #262626;
+  font-family: "Verdana", sans-serif;
   line-height: 1.5; }
 
 h1 {
   color: #19CCAA;
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  letter-spacing: 2px; }
   h1 a,
   h1 a:visited {
     text-decoration: none;
     color: #19CCAA; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 a,
 a:visited {
-  color: #425469;
+  color: #262626;
   text-decoration: underline;
-  font-weight: bold; }
+  font-weight: none; }
 
 a:hover {
   color: #19CCAA;

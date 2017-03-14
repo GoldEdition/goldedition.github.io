@@ -6,6 +6,6 @@ categories: jekyll update
 ---
 
 
-![France](/resources/pictures/adentures-in-france/DSC_0305.jpgwidth="100"){:class="img-responsive"}
+![France](/resources/pictures/adentures-in-france/DSC_0305.jpg width="200"){:class="img-responsive"}
 
 <img src="/resources/pictures/adventures-in-france/DSC_0305.jpg" width="200" height="200"/>
